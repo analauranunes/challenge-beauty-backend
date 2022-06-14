@@ -1,0 +1,21 @@
+{
+  "name": "challenge-beauty-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:analauranunes/challenge-beauty-backend.git",
+  "author": "Ana Laura <analaurahdn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js",
+    "dev": "npx nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sucrase": "^3.21.0"
+  }
+}
