@@ -19,6 +19,8 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.0",
+    "eslint": "^8.16.0",
     "nodemon": "^2.0.16",
     "sucrase": "^3.21.0"
   }

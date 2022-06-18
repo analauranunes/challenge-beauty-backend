@@ -1,5 +1,4 @@
 import express from "express";
-import { pool } from "./database/users";
 import loginRouter from "./routes/login";
 import userRouter from "./routes/users";
 
