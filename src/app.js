@@ -12,4 +12,4 @@ app.use("/users", userRouter)
 app.use("/login", loginRouter)
 console.log(pool)
 
-app.listen(port, () => console.log("Running on port 3000"));
+app.listen(port, () => console.log("Aplication running"));
