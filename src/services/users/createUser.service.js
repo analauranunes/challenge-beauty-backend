@@ -19,7 +19,6 @@ async function createUserService(data) {
     [data.body.email, data.body.name, data.body.password]
   );
 
-  console.log(response.rows);
   response.rows[0].password = bcryptjs.hashSync(response.rows[0].password, 10);
 
   return response.rows[0];

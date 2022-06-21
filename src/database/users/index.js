@@ -10,10 +10,3 @@ const pool = new Pool({
 
 module.exports = { pool };
 
-// pool.query("SELECT * FROM users", (err, res) => {
-//   console.log(err, res);
-//   pool.end();
-// });
-
-// const {pool} = require("./database/users/index")
-

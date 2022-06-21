@@ -1,14 +1,15 @@
 import express from "express";
 import loginRouter from "./routes/login";
 import userRouter from "./routes/users";
+import cors from "cors"
 
 const app = express();
 app.use(express.json());
+app.use(cors())
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3100;
 
 app.use("/users", userRouter)
 app.use("/login", loginRouter)
-console.log(port)
 
-app.listen(port, () => console.log("Aplication running"));
+app.listen(port, () => console.log("Aplication running", port));

@@ -4,7 +4,6 @@ const {
 
 async function createUserController(request, response) {
   const newUser = await createUserService(request);
-  console.log(newUser);
 
   if (newUser.error) {
     return response.status(400).json({

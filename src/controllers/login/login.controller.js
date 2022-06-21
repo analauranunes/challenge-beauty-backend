@@ -9,7 +9,6 @@ async function loginController(request, response) {
     });
   }
 
-  console.log(request)
   return response.json(userLogin);
 }
 
