@@ -14,8 +14,6 @@ async function loginService(data) {
         }
     }
 
-    console.log(userExists.rows)
-
     if(userExists.rows[0].password !== data.body.password){
         return {
             error: "Password invalid."
